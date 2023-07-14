@@ -29,7 +29,7 @@ import (
 	"testing"
 
 	"github.com/phayes/freeport"
-	opsterv1 "opensearch.opster.io/api/v1"
+	opsterv1 "github.com/saketmht/opensearch-k8s-operator/opensearch-operator/api/v1"
 
 	ctrl "sigs.k8s.io/controller-runtime"
 

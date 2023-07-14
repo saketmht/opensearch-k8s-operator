@@ -7,6 +7,8 @@ import (
 
 	monitoring "github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring/v1"
 
+	opsterv1 "github.com/saketmht/opensearch-k8s-operator/opensearch-operator/api/v1"
+	"github.com/saketmht/opensearch-k8s-operator/opensearch-operator/pkg/helpers"
 	appsv1 "k8s.io/api/apps/v1"
 	batchv1 "k8s.io/api/batch/v1"
 	corev1 "k8s.io/api/core/v1"
@@ -15,8 +17,6 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/utils/pointer"
-	opsterv1 "opensearch.opster.io/api/v1"
-	"opensearch.opster.io/pkg/helpers"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 

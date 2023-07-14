@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/hashicorp/go-version"
+	opsterv1 "github.com/saketmht/opensearch-k8s-operator/opensearch-operator/api/v1"
 	"k8s.io/utils/pointer"
-	opsterv1 "opensearch.opster.io/api/v1"
 )
 
 func ResolveInitHelperImage(cr *opsterv1.OpenSearchCluster) (result opsterv1.ImageSpec) {

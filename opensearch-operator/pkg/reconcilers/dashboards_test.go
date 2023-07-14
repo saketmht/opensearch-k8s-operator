@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
+	opsterv1 "github.com/saketmht/opensearch-k8s-operator/opensearch-operator/api/v1"
+	"github.com/saketmht/opensearch-k8s-operator/opensearch-operator/pkg/helpers"
+	"github.com/saketmht/opensearch-k8s-operator/opensearch-operator/pkg/reconcilers/util"
 	appsv1 "k8s.io/api/apps/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	opsterv1 "opensearch.opster.io/api/v1"
-	"opensearch.opster.io/pkg/helpers"
-	"opensearch.opster.io/pkg/reconcilers/util"
 
 	. "github.com/kralicky/kmatch"
 	. "github.com/onsi/ginkgo/v2"

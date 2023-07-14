@@ -7,9 +7,9 @@ import (
 
 	"k8s.io/client-go/tools/record"
 
+	opsterv1 "github.com/saketmht/opensearch-k8s-operator/opensearch-operator/api/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/util/retry"
-	opsterv1 "opensearch.opster.io/api/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 )

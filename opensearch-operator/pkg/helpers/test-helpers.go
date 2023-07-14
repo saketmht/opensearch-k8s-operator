@@ -1,9 +1,9 @@
 package helpers
 
 import (
+	"github.com/saketmht/opensearch-k8s-operator/opensearch-operator/pkg/tls"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime"
-	"opensearch.opster.io/pkg/tls"
 )
 
 // A simple mock to use whenever a record.EventRecorder is needed for a test

@@ -12,8 +12,8 @@ import (
 	"github.com/opensearch-project/opensearch-go"
 	"github.com/opensearch-project/opensearch-go/opensearchapi"
 	"github.com/opensearch-project/opensearch-go/opensearchutil"
+	"github.com/saketmht/opensearch-k8s-operator/opensearch-operator/opensearch-gateway/responses"
 	"k8s.io/utils/pointer"
-	"opensearch.opster.io/opensearch-gateway/responses"
 )
 
 const (

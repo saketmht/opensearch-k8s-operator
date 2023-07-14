@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	opsterv1 "opensearch.opster.io/api/v1"
+	opsterv1 "github.com/saketmht/opensearch-k8s-operator/opensearch-operator/api/v1"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

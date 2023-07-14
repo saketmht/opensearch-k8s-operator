@@ -3,10 +3,10 @@ package controllers
 import (
 	"context"
 	"github.com/go-logr/logr"
+	opsterv1 "github.com/saketmht/opensearch-k8s-operator/opensearch-operator/api/v1"
+	"github.com/saketmht/opensearch-k8s-operator/opensearch-operator/pkg/reconcilers"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/record"
-	opsterv1 "opensearch.opster.io/api/v1"
-	"opensearch.opster.io/pkg/reconcilers"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"

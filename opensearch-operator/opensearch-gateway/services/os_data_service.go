@@ -3,8 +3,8 @@ package services
 import (
 	"strings"
 
-	"opensearch.opster.io/opensearch-gateway/responses"
-	"opensearch.opster.io/pkg/helpers"
+	"github.com/saketmht/opensearch-k8s-operator/opensearch-operator/opensearch-gateway/responses"
+	"github.com/saketmht/opensearch-k8s-operator/opensearch-operator/pkg/helpers"
 )
 
 var ClusterSettingsExcludeBrokenPath = []string{"cluster", "routing", "allocation", "exclude", "_name"}

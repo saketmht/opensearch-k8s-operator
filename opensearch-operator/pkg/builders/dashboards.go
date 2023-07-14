@@ -5,12 +5,12 @@ import (
 	"sort"
 	"strings"
 
+	opsterv1 "github.com/saketmht/opensearch-k8s-operator/opensearch-operator/api/v1"
+	"github.com/saketmht/opensearch-k8s-operator/opensearch-operator/pkg/helpers"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
-	opsterv1 "opensearch.opster.io/api/v1"
-	"opensearch.opster.io/pkg/helpers"
 )
 
 /// Package that declare and build all the resources that related to the OpenSearch-Dashboard ///

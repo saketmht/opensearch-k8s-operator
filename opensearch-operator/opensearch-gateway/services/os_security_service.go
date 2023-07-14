@@ -7,8 +7,8 @@ import (
 	"reflect"
 
 	"github.com/opensearch-project/opensearch-go/opensearchutil"
-	"opensearch.opster.io/opensearch-gateway/requests"
-	"opensearch.opster.io/opensearch-gateway/responses"
+	"github.com/saketmht/opensearch-k8s-operator/opensearch-operator/opensearch-gateway/requests"
+	"github.com/saketmht/opensearch-k8s-operator/opensearch-operator/opensearch-gateway/responses"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 )
 
